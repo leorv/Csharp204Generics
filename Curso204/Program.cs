@@ -2,7 +2,7 @@
 
 using Curso204;
 
-PrintService ps = new PrintService();
+PrintService<int> ps = new PrintService<int>();
 
 Console.WriteLine("How many values: ");
 int n = int.Parse(Console.ReadLine());
@@ -14,5 +14,7 @@ for (int i = 0; i < n; i++)
 }
 
 ps.Print();
+
+int a = ps.First();
 
 Console.WriteLine("First: " + ps.First());
