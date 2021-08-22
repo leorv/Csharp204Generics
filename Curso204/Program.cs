@@ -3,6 +3,7 @@
 using Curso204;
 
 PrintService ps = new PrintService();
+
 Console.WriteLine("How many values: ");
 int n = int.Parse(Console.ReadLine());
 
